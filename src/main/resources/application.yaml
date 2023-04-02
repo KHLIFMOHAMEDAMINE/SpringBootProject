@@ -1,1 +1,5 @@
-
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Mayssa:pYUR5xFBl5ajYjBH@springboot.wk4zknf.mongodb.net/?retryWrites=true&w=majority
+      database: springboot
