@@ -19,6 +19,4 @@ public class Course {
     private String URL;
     private String description;
 
-
-
 }

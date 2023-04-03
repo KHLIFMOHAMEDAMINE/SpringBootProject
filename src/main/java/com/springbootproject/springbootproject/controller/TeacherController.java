@@ -19,9 +19,8 @@ public class TeacherController
     }
 
     @PostMapping
-    public Course save(
-            @RequestBody Course course
-    ){
+    public Course save (@RequestBody Course course)
+    {
         return service.save(course);
     }
 
